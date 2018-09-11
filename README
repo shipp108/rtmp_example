@@ -1,0 +1,10 @@
+# rtmp example
+rtmpdump:
+	make install # general include & lib to rtmp/include rtmp/libs
+
+rtmp:
+	file transmission
+
+rtmp2:
+	libs: 1108 cross compliered
+	stream transmission
